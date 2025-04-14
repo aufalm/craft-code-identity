@@ -16,34 +16,34 @@ import AnimatedSection from './AnimatedSection';
 const Projects = () => {
   const projects = [
     {
-      title: 'Patient Management System',
-      description: 'A comprehensive healthcare platform for managing patient records, appointments, and medical history. Features include real-time notifications and secure data storage.',
+      title: 'AWS Infrastructure with CDK',
+      description: 'Implemented cloud infrastructure using AWS CDK with TypeScript, creating reusable components for deployment pipelines, networking, and application hosting environments.',
       image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=600',
-      technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Express'],
+      technologies: ['AWS', 'CDK', 'TypeScript', 'CloudFormation'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com/ardaunified',
     },
     {
-      title: 'E-Learning Platform',
-      description: 'Interactive learning platform with course management, video lectures, quizzes, and progress tracking. Supports both instructors and students with different role-based interfaces.',
+      title: 'Docker Swarm Monitoring',
+      description: 'Developed comprehensive monitoring solution for Docker Swarm clusters using Grafana, Prometheus, and cAdvisor to provide real-time insights into container performance and resource utilization.',
       image: 'https://images.unsplash.com/photo-1481487196290-c152efe083f5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=600',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
+      technologies: ['Docker', 'Grafana', 'Prometheus', 'cAdvisor'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com/ardaunified',
     },
     {
-      title: 'Inventory Management System',
-      description: 'Enterprise solution for tracking inventory, managing suppliers, and generating real-time reports. Includes barcode scanning functionality and automated reorder notifications.',
+      title: 'CI/CD Pipeline with GitHub Actions',
+      description: 'Created automated CI/CD pipelines using GitHub Actions for seamless testing, building, and deployment of applications to multiple environments, reducing deployment time by 40%.',
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=600',
-      technologies: ['Next.js', 'TypeScript', 'Firebase', 'Redux'],
+      technologies: ['GitHub Actions', 'Docker', 'AWS', 'Testing'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com/ardaunified',
     },
     {
-      title: 'Financial Dashboard',
-      description: 'Interactive financial analytics dashboard with real-time data visualization, transaction tracking, and budget planning tools. Supports multiple currencies and customizable views.',
+      title: 'Database Migration System',
+      description: 'Designed and implemented a system for migrating databases from on-premises servers to AWS RDS, ensuring zero downtime during transitions and maintaining data integrity throughout the process.',
       image: 'https://images.unsplash.com/photo-1558655146-d09347e92766?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=600',
-      technologies: ['React', 'Express', 'MongoDB', 'D3.js'],
+      technologies: ['AWS RDS', 'MySQL', 'PostgreSQL', 'Data Migration'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com/ardaunified',
     },
@@ -56,7 +56,7 @@ const Projects = () => {
           <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>
           <div className="h-1 w-20 bg-primary mx-auto"></div>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
-            Here are some of the projects I've worked on. Each represents different challenges and solutions in web development.
+            Here are some projects that showcase my skills in infrastructure engineering, DevOps, and cloud technologies.
           </p>
         </AnimatedSection>
         

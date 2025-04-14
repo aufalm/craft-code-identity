@@ -10,13 +10,13 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <div className="inline-block rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
-              Full Stack Developer
+              DevOps & Infrastructure Engineer
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Hi, I'm <span className="text-primary">Arda Putra Kusuma</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-md">
-              Passionate Full Stack Developer experienced in creating elegant, efficient, and user-friendly web applications.
+              Senior Infrastructure Engineer at IDN Media with expertise in AWS, Docker, CI/CD pipelines, and cloud infrastructure management.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild>
@@ -56,7 +56,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl opacity-30"></div>
               <div className="relative rounded-full overflow-hidden border-8 border-white shadow-xl aspect-square max-w-md mx-auto">
                 <img 
-                  src="https://media.licdn.com/dms/image/D5603AQEUuQ_AFx0gKA/profile-displayphoto-shrink_800_800/0/1673421781821?e=1719446400&v=beta&t=tJoIEYxH-hJUSH0nWPeBHv8fcB-qvUgZqsYQx4EiUBs"
+                  src="public/lovable-uploads/4f922bc4-acd9-4e83-b006-e6fa9abbb4ba.png"
                   alt="Arda Putra Kusuma" 
                   className="w-full h-full object-cover"
                 />
