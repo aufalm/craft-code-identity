@@ -21,7 +21,7 @@ const Experience = () => {
       company: 'Amazon',
       position: 'Software Engineer',
       period: 'Jun 2016 - Feb 2018',
-      description: 'Built and optimized backend services for Amazon's e-commerce platform. Improved API response times by 40% through code refactoring and optimizations. Participated in on-call rotations ensuring 24/7 service reliability.',
+      description: 'Built and optimized backend services for Amazon\'s e-commerce platform. Improved API response times by 40% through code refactoring and optimizations. Participated in on-call rotations ensuring 24/7 service reliability.',
     },
     {
       company: 'Tesla',
