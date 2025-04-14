@@ -2,6 +2,7 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Briefcase } from 'lucide-react';
+import AnimatedSection from './AnimatedSection';
 
 const Experience = () => {
   const experiences = [
@@ -34,10 +35,10 @@ const Experience = () => {
   return (
     <section id="experience" className="section bg-secondary/50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <AnimatedSection className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Work Experience</h2>
           <div className="h-1 w-20 bg-primary mx-auto"></div>
-        </div>
+        </AnimatedSection>
         
         <div className="relative">
           {/* Timeline line */}
@@ -53,7 +54,11 @@ const Experience = () => {
                   </div>
                   
                   {/* Content */}
-                  <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
+                  <AnimatedSection 
+                    animation={index % 2 === 0 ? 'fade-in-right' : 'fade-in-left'} 
+                    delay={index * 150} 
+                    className={`md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}
+                  >
                     <Card className="overflow-hidden transform transition-all hover:shadow-lg">
                       <CardContent className="p-6">
                         <div className="flex md:hidden items-center gap-2 mb-4">
@@ -68,7 +73,7 @@ const Experience = () => {
                         <p className="text-muted-foreground">{exp.description}</p>
                       </CardContent>
                     </Card>
-                  </div>
+                  </AnimatedSection>
                 </div>
               </div>
             ))}
