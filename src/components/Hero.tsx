@@ -56,7 +56,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl opacity-30"></div>
               <div className="relative rounded-full overflow-hidden border-8 border-white shadow-xl aspect-square max-w-md mx-auto">
                 <img 
-                  src="public/lovable-uploads/4f922bc4-acd9-4e83-b006-e6fa9abbb4ba.png"
+                  src="/lovable-uploads/c5f0e98a-6f1e-4930-8df5-854d59a3f565.png"
                   alt="Arda Putra Kusuma" 
                   className="w-full h-full object-cover"
                 />
