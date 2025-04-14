@@ -13,13 +13,13 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg">
-              I'm a dedicated software engineer with a passion for creating clean, efficient, and user-friendly applications. With over 5 years of experience in web and mobile development, I specialize in building robust solutions that solve real-world problems.
+              I'm a dedicated Full Stack Developer with 3 years of experience in web development. I specialize in crafting modern web applications with React, TypeScript, and Next.js in the frontend, and Node.js, Express, and MongoDB in the backend.
             </p>
             <p className="text-lg">
-              My journey in tech began when I built my first website at 15. Since then, I've worked with startups and established companies alike, helping them achieve their technical goals and create meaningful digital experiences.
+              My goal is to create impactful digital experiences that solve real-world problems. I'm experienced in developing frontend interfaces, integrating with APIs, implementing authentication systems, and deploying scalable applications.
             </p>
             <p className="text-lg">
-              When I'm not coding, I enjoy contributing to open-source projects, mentoring junior developers, and staying up-to-date with the latest technology trends through continuous learning.
+              When I'm not coding, I enjoy learning new technologies, contributing to open-source projects, and staying current with the latest development trends to continuously improve my skills.
             </p>
           </div>
           
@@ -27,15 +27,15 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-2">
                 <h3 className="font-semibold">Name</h3>
-                <p className="text-muted-foreground">John Doe</p>
+                <p className="text-muted-foreground">Arda Putra Kusuma</p>
               </div>
               <div className="space-y-2">
                 <h3 className="font-semibold">Email</h3>
-                <p className="text-muted-foreground">email@example.com</p>
+                <p className="text-muted-foreground">ardaputrakusuma@gmail.com</p>
               </div>
               <div className="space-y-2">
                 <h3 className="font-semibold">Location</h3>
-                <p className="text-muted-foreground">San Francisco, CA</p>
+                <p className="text-muted-foreground">Depok, West Java, Indonesia</p>
               </div>
               <div className="space-y-2">
                 <h3 className="font-semibold">Availability</h3>
@@ -47,12 +47,12 @@ const About = () => {
               <h3 className="font-semibold mb-4">Education</h3>
               <div className="space-y-4">
                 <div className="border-l-2 border-primary pl-4 py-2">
-                  <p className="font-medium">Master of Science in Computer Science</p>
-                  <p className="text-muted-foreground">Stanford University (2018-2020)</p>
+                  <p className="font-medium">Associate's degree, Public Health</p>
+                  <p className="text-muted-foreground">Universitas Terbuka (2024)</p>
                 </div>
                 <div className="border-l-2 border-primary pl-4 py-2">
-                  <p className="font-medium">Bachelor of Science in Software Engineering</p>
-                  <p className="text-muted-foreground">MIT (2014-2018)</p>
+                  <p className="font-medium">Full Stack Development Training</p>
+                  <p className="text-muted-foreground">Harisenin.com and Binar Academy (2021)</p>
                 </div>
               </div>
             </div>

@@ -7,28 +7,28 @@ import AnimatedSection from './AnimatedSection';
 const Experience = () => {
   const experiences = [
     {
-      company: 'Google',
-      position: 'Senior Software Engineer',
-      period: 'Jan 2021 - Present',
-      description: 'Lead development of key features for Google Cloud Platform. Optimized application performance resulting in 30% faster load times. Mentored junior engineers and led technical interviews.',
+      company: 'PT. Pavestar Mediatech Indonesia',
+      position: 'Full Stack Developer',
+      period: 'Sep 2022 - Present',
+      description: 'Developing web applications using React, Next.js, and TypeScript. Managing MongoDB databases, implementing authentication with JWT, and developing REST APIs with Express. Working on Third Party API integration and Payment Gateway integration.',
     },
     {
-      company: 'Microsoft',
-      position: 'Software Engineer II',
-      period: 'Mar 2018 - Dec 2020',
-      description: 'Developed and maintained core components of Microsoft Teams. Implemented new features that improved user experience and engagement. Collaborated with cross-functional teams to deliver high-quality software.',
+      company: 'SEVEN INC',
+      position: 'Freelance Full Stack Developer',
+      period: 'May 2022 - Sep 2022',
+      description: 'Developed fullstack websites for clients using Next.js, TypeScript, and Express. Implemented REST APIs, integrated MongoDB, and deployed applications to cloud platforms for optimal performance and scalability.',
     },
     {
-      company: 'Amazon',
-      position: 'Software Engineer',
-      period: 'Jun 2016 - Feb 2018',
-      description: 'Built and optimized backend services for Amazon\'s e-commerce platform. Improved API response times by 40% through code refactoring and optimizations. Participated in on-call rotations ensuring 24/7 service reliability.',
+      company: 'Wisemanor Corps',
+      position: 'Full Stack Developer',
+      period: 'Dec 2021 - May 2022',
+      description: 'Created web-based internal company tools using React.js, Node.js, and MongoDB. Built e-commerce features including product browsing, cart systems, and secure checkout processes. Integrated authentication and authorization systems.',
     },
     {
-      company: 'Tesla',
-      position: 'Software Engineering Intern',
-      period: 'May 2015 - Aug 2015',
-      description: 'Assisted in developing internal tools for manufacturing processes. Created dashboards for real-time monitoring of production systems. Participated in agile development practices including daily stand-ups and sprint planning.',
+      company: 'Binar Academy x Harisenin Bootcamp',
+      position: 'Full Stack Developer Student',
+      period: 'Aug 2021 - Dec 2021',
+      description: 'Completed intensive full stack web development bootcamp focusing on modern JavaScript frameworks and tools. Developed projects using React, Node.js, Express and MongoDB. Learned industry best practices, version control with Git, and agile development methodology.',
     },
   ];
 
